@@ -1,3 +1,4 @@
+import { ChevronRight } from '@material-ui/icons';
 import React from 'react';
 import "./Blog.scss";
 
@@ -18,7 +19,12 @@ const Blog = () => (
             <div className="news">
                 <div className="card__container">
 
-                    <div className="card"></div>
+                    <div className="card">
+                        {/* <div className="overlay">
+                            <h4>News & Events</h4>
+                            <ChevronRight />
+                        </div> */}
+                    </div>
 
                     <div className="card"></div>
 

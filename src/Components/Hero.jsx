@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Hero.scss";
+import Separator from "../images/sep.png"
 
 
 
@@ -17,7 +18,9 @@ const Hero = () => (
 
         <div className="hero__cta">
 
-                <h3 class="separator">|</h3>
+                <div class="separator">
+                    <img src={Separator} alt="" srcset="" />
+                </div>
 
                 <ul>
                     <li>Apply</li>

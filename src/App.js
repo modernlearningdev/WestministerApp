@@ -15,10 +15,16 @@ function App() {
     <div className="App">
 
       <Header />
-      <Hero />
-      <WhoWeAre />
-      <WhoWeAreBrief />
 
+      <div className="bg_effect">
+        <Hero />
+        <WhoWeAre />
+        <WhoWeAreBrief />
+
+      </div>
+
+     
+      
       <Separator />
 
       <Blog />

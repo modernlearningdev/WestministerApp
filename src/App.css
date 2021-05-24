@@ -1,4 +1,7 @@
 .App {
-    /* padding-top: 30px; */
-    /* overflow: hidden; */
+    
+    .bg_effect{
+        background-color: #e6e7eb;
+    }
+    
 }

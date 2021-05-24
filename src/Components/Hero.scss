@@ -8,6 +8,7 @@
     background-repeat: no-repeat;
     // overflow: hidden;
     box-sizing: border-box;
+    background-color: #e6e7eb;
     
 
 
@@ -39,7 +40,7 @@
 
     .hero__cta {
         position: relative;
-        top: 11%;
+        // top: 11%;
         padding-left: 50px;
         // padding: 50px;
         // transform: translateY(-50%);
@@ -47,37 +48,52 @@
         // background-color: red;
         display: flex;
         justify-content: space-between;
-        // box-sizing: border-box;
+        box-sizing: border-box;
+        // background-color: red;
+        align-items: center;
+        justify-items: center;
         
 
         
         .separator {
-            font-size: 92px;
-            color: #ffb800;
-            font-weight: 500;
-            line-height: 1rem;
-            display: inline-block;
+            
+            // background-color: red;
+            margin: 0;
+            margin-left: 30px;
+            padding: 0;
+            height: 100px;
             // flex: 1;
+            
+            img {
+                display: inline-block;
+                
+                height: 80px;
+            }
         }
 
         ul {
             position: relative;
-            // top: 0%;
-            // right: 0;
-            // width: 00px;
+            // display: inline-block;
+            height: 100px;
             display: flex;
             justify-content: space-between;
             list-style-type: none;
             background-color: #134c93;
-            // text-align: center;
+            width: 40%;
+            // paddinf
+            text-align: center;
+            align-items: center;
+            
             
             
 
             li {
-                padding: 40px;
+                padding: 20px;
+                
+                // display: inline-block;
                 position: relative;
-                top: 50%;
-                transform: translateY(-30%);
+                // top: 50%;
+                // transform: translateY(-30%);
                 font-size: 18px;
                 color: white;
                 font-weight: 600;
