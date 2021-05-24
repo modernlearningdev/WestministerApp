@@ -1,0 +1,35 @@
+
+
+
+.content {
+    display: flex;
+    justify-content: space-between ;
+    padding-top: 100px;
+    margin: auto;
+
+    .content__card {
+        // flex: 1;
+
+        .card__image {
+            width: 300px;
+            height: 260px;
+            // background-color: red;
+            background-image: url("../images/WIS\ students29.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .card__cta {
+            display: flex;
+            // justify-content: space-between;
+            padding-top: 20px;
+
+            .MuiSvgIcon-root {
+                color: #ffb800;
+                // padding-right: 20px;
+            }
+        }
+    }
+
+
+}

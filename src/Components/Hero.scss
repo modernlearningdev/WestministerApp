@@ -1,0 +1,92 @@
+
+.hero {
+    width:  100%;
+    height:  75vh;
+    // background-color: red;
+    background-image: linear-gradient(to right, #09026d50 0%, #070a3041 100%), url("../images/hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    // overflow: hidden;
+    box-sizing: border-box;
+    
+
+
+    .hero__wrapper {
+        position: relative;
+        // top: 10%;
+        margin: 30px;
+        padding: 50px;
+        width: 45%;
+        // background-color: green;
+
+        .tagline {
+            font-size: 32px;
+            color:white;
+            font-weight: 800;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            
+        }
+
+        .cta {
+            padding: 15px 25px;
+            color: #ffb800;
+            border: 3px solid #ffb800;
+            font-weight: 600;
+            text-decoration: none;
+        }
+    }
+
+    .hero__cta {
+        position: relative;
+        top: 11%;
+        padding-left: 50px;
+        // padding: 50px;
+        // transform: translateY(-50%);
+        width: 100%;
+        // background-color: red;
+        display: flex;
+        justify-content: space-between;
+        // box-sizing: border-box;
+        
+
+        
+        .separator {
+            font-size: 92px;
+            color: #ffb800;
+            font-weight: 500;
+            line-height: 1rem;
+            display: inline-block;
+            // flex: 1;
+        }
+
+        ul {
+            position: relative;
+            // top: 0%;
+            // right: 0;
+            // width: 00px;
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            background-color: #134c93;
+            // text-align: center;
+            
+            
+
+            li {
+                padding: 40px;
+                position: relative;
+                top: 50%;
+                transform: translateY(-30%);
+                font-size: 18px;
+                color: white;
+                font-weight: 600;
+                
+            }
+        }
+    }
+
+    margin-bottom: 100px;
+}
+
+
