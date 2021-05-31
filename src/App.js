@@ -1,12 +1,9 @@
 import './App.css';
 import Header from "./Components/Header";
-import Hero from './Components/Hero';
-import Separator from './Components/Separator';
-import WhoWeAre from './Components/WhoWeAre';
-import WhoWeAreBrief from './Components/WhoWeAreBrief';
-import Blog from "./Components/Blog";
-import Visit from "./Components/Visit";
-import Footer from './Components/Footer';
+import Homepage from "./Components/Homepage"
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import About from './Components/About';
+import Admissions from './Components/Admissions';
 
 
 
@@ -14,25 +11,38 @@ function App() {
   return (
     <div className="App">
 
+      
+
+      <Router>
+
       <Header />
 
-      <div className="bg_effect">
-        <Hero />
-        <WhoWeAre />
-        <WhoWeAreBrief />
+      <Switch>
 
-      </div>
+        <Route exact path={"/"} >
+          <Homepage />
+        </Route>
 
-     
+        <Route exact path={"/about"}>
+          <About />
+        </Route>
+
+        <Route path="/admissions">
+          <Admissions />
+        </Route>
+
+
+      </Switch>
+
       
-      <Separator />
 
-      <Blog />
+
+
+
+
+      </Router>
+
       
-
-      <Visit />
-
-      <Footer />
       
         
     </div>

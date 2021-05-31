@@ -3,6 +3,7 @@ import "./Header.scss";
 import {Menu} from '@material-ui/icons';
 
 import Logo from "../images/logo.png";
+import { Link } from 'react-router-dom';
 
 
 const Header = () => (
@@ -30,8 +31,10 @@ const Header = () => (
         {/* header menu links  */}
         <div className="header__menu">
             <ul>
-                <li>About WIS</li>
-                <li>Admissions</li>
+
+                
+                <li className="link"><Link to="/about">About WIS</Link></li>
+                <li><Link to="/admissions">Admissions</Link></li>
                 <li>Academics</li>
                 <li>Resources</li>
                 <li>Contact</li>
