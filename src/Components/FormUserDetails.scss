@@ -1,0 +1,32 @@
+.form__container {
+    padding: 30px 20px;
+    margin-top: 20px;
+
+    .row {
+        display: flex;
+        justify-content: space-around;
+
+        .row__left, .row__right {
+            display: flex;
+            flex-direction: column;
+
+            .label{
+                color: #4d78ac;
+            }
+
+            .form__input {
+                border: 1px solid #134C93;
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                box-sizing: border-box;
+                border-radius: 4px;
+
+                &:focus {
+                    border: 1px solid #134C93;
+                }
+            }
+            
+        }
+    }
+}

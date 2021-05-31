@@ -1,0 +1,42 @@
+.form__container1 {
+    padding: 30px 20px;
+    margin-top: 20px;
+
+    .row1 {
+        // display: flex;
+        justify-content: space-around;
+
+        .row__left1, .row__right1 {
+            // display: flex;
+            // flex-direction: roll;
+
+            .label1{
+                color: #4d78ac;
+            }
+
+            .form__input1 {
+                border: 1px solid #134C93;
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                box-sizing: border-box;
+                border-radius: 4px;
+
+                &:focus {
+                    border: 1px solid #134C93;
+                }
+            }
+            
+        }
+    }
+
+    .ctl__button {
+        // width: 200px;
+        position: relative;
+        right: 0;
+        margin-top: 20px;
+        // transform: translateX(-50%);
+        // display: flex;
+        // justify-content: space-around;
+    }
+}
