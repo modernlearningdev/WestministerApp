@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Header.scss";
-import {Menu} from '@material-ui/icons';
+// import {Menu} from '@material-ui/icons';
 
 import Logo from "../images/logo.png";
 import { Link } from 'react-router-dom';
@@ -21,24 +21,16 @@ const Header = () => (
             </div>  
         </div>
 
-        {/* <div className="menuicon">
-            <Menu />
-        </div> */}
-        
-
-
-
-        {/* header menu links  */}
         <div className="header__menu">
             <ul>
-
-                
+          
                 <li className="link"><Link to="/about">About WIS</Link></li>
                 <li><Link to="/admissions">Admissions</Link></li>
-                <li>Academics</li>
-                <li>Resources</li>
-                <li>Contact</li>
+                <li><Link to="/academics">Academics</Link></li>
+                <li><Link to="/resources">Resources</Link></li>
+                <li><Link to="/contact">Contact</Link></li>
                 <li className="signin">Sign In</li>
+
             </ul>
         </div>
     </div>

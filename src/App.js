@@ -4,6 +4,8 @@ import Homepage from "./Components/Homepage"
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import About from './Components/About';
 import Admissions from './Components/Admissions';
+import Academics from './Components/Academics';
+import ContactUs from './Components/ContactUs';
 
 
 
@@ -27,8 +29,16 @@ function App() {
           <About />
         </Route>
 
-        <Route path="/admissions">
+        <Route exact path="/admissions">
           <Admissions />
+        </Route>
+
+        <Route exact path="/academics">
+          <Academics />
+        </Route>
+
+        <Route exact path="/contact">
+          <ContactUs />
         </Route>
 
 
