@@ -1,7 +1,9 @@
+import { Button } from '@material-ui/core';
 import React from 'react';
 // import ReactMapGL, { Marker } from 'react-map-gl';
 // import { react_app_mapbox_token } from "../util/util";
 import "./ContactUs.scss";
+import Logo from "../images/logo.png";
 
 import Map from './Map';
 
@@ -12,22 +14,29 @@ const ContactUs = () => {
 
 
 
-    //     Latitude: -17.820646 / S 17° 49' 14.325''
-    // Longitude: 30.999092 / E 30° 59' 56.731''
-
     return (
 
         <>
             <div className="contactus">
+                <div className="title__wrapper">
+                    <div>
+                        <h3>Get In Touch</h3>
+                        <p>We would Linek to here from you </p>
+                    </div>
+
+                    <div className="logo__container">
+                        <img src={Logo} alt="WIS" srcset="" />
+                    </div>
+
+                </div>
+
 
             </div>
 
+
             <div className="bg">
 
-                <div className="title__wrapper">
-                    <h3>Get In Touch</h3>
-                    <p>We would Linek to here from you </p>
-                </div>
+
 
                 <div className="contact__form">
 
@@ -39,18 +48,20 @@ const ContactUs = () => {
 
                         <div className="row">
                             <label htmlFor="" className="label">Firstname</label>
-                            <input type="text" placeholder="fistname" />
+                            <input type="text" className="form__input" placeholder="Fistname" />
                         </div>
 
                         <div className="row">
                             <label htmlFor="" className="label">Email</label>
-                            <input type="text" placeholder="fistname" />
+                            <input type="text" className="form__input" placeholder="Email" />
                         </div>
 
                         <div className="row">
                             <label htmlFor="" className="label">Message</label>
-                            <input type="text" placeholder="fistname" />
+                            <textarea type="text" className="form__input message" rows="4" cols="50" placeholder="Message ..." />
                         </div>
+
+                        <Button color="primary" className="submit__button" size="large" variant="outlined">Submit</Button>
 
                     </div>
 
