@@ -23,7 +23,7 @@ const Header = () => (
 
         <div className="header__menu">
             <ul>
-          
+                <li className="link"><Link to="/">Home</Link></li>
                 <li className="link"><Link to="/about">About WIS</Link></li>
                 <li><Link to="/admissions">Admissions</Link></li>
                 <li><Link to="/academics">Academics</Link></li>
