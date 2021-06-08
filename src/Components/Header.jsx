@@ -27,7 +27,7 @@ const Header = () => (
                 <li className="link"><Link to="/about">About WIS</Link></li>
                 <li><Link to="/admissions">Admissions</Link></li>
                 <li><Link to="/academics">Academics</Link></li>
-                <li><Link to="/resources">Resources</Link></li>
+                <li><Link to="#">Resources</Link></li>
                 <li><Link to="/contact">Contact</Link></li>
                 <li className="signin">Sign In</li>
 
