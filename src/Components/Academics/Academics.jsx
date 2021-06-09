@@ -1,11 +1,11 @@
 import React from "react";
 import "./Academics.scss";
-import Blob1 from "../images/1.svg";
-import Blob3 from "../images/3.svg"
+import Blob1 from "../../images/1.svg";
+import Blob3 from "../../images/3.svg"
 
-import BlogTopImg from "../images/WIS students35.jpg";
-import BlogTopImg2 from "../images/WIS students41.jpg";
-import BlogTopImg3 from "../images/WIS students30.jpg"
+import BlogTopImg from "../../images/WIS students35.jpg";
+import BlogTopImg2 from "../../images/WIS students41.jpg";
+import BlogTopImg3 from "../../images/WIS students30.jpg"
 
 
 const Academics = () => (

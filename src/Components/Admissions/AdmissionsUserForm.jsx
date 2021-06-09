@@ -1,7 +1,7 @@
-import { Button } from '@material-ui/core';
+// import { Button } from '@material-ui/core';
 import React, { useState } from 'react';
-import FormPersonalDetails from './FormPersonalDetails';
-import FormUserDetails from './FormUserDetails';
+import FormPersonalDetails from '../StepForm/FormPersonalDetails';
+import FormUserDetails from '../StepForm/FormUserDetails';
 
 
 
@@ -54,9 +54,9 @@ const UserForm = () => {
 
             {
                
-                step == 1 ? (
+                step === 1 ? (
                     <FormUserDetails nextStep={nextStep} values={values} handleChange={handleChange} />
-                ) : step == 2 ? (<FormPersonalDetails nextStep={nextStep} prevStep={prevStep} values={values} handleChange={handleChange} />): (null)
+                ) : step === 2 ? (<FormPersonalDetails nextStep={nextStep} prevStep={prevStep} values={values} handleChange={handleChange} />): (null)
 
                 
                 

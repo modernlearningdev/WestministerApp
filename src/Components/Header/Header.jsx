@@ -2,7 +2,7 @@ import React from 'react';
 import "./Header.scss";
 // import {Menu} from '@material-ui/icons';
 
-import Logo from "../images/logo.png";
+import Logo from "../../images/logo.png";
 import { Link } from 'react-router-dom';
 
 

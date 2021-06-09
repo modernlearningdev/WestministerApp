@@ -1,11 +1,11 @@
 import React from 'react';
-import Hero from './Hero';
-import Separator from './Separator';
-import WhoWeAre from './WhoWeAre';
-import WhoWeAreBrief from './WhoWeAreBrief';
-import Blog from "./Blog";
-import Visit from "./Visit";
-import Footer from './Footer';
+import Hero from '../Hero/Hero';
+import Separator from '../Separator/Separator';
+import WhoWeAre from '../WhoWeAre/WhoWeAre';
+import WhoWeAreBrief from '../WhoWeAreBrief/WhoWeAreBrief';
+import Blog from "../Blog/Blog";
+import Visit from "../Visit/Visit";
+import Footer from '../Footer/Footer';
 
 
 const Homepage = () => (

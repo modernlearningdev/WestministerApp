@@ -3,9 +3,9 @@ import React from 'react';
 // import ReactMapGL, { Marker } from 'react-map-gl';
 // import { react_app_mapbox_token } from "../util/util";
 import "./ContactUs.scss";
-import Logo from "../images/logo.png";
+import Logo from "../../images/logo.png";
 
-import Map from './Map';
+import Map from '../Map/Map';
 
 
 

@@ -2,7 +2,7 @@ import React from 'react';
 import "./WhoWeAre.scss";
 
 import ChevronRightIcon from '@material-ui/icons/ChevronRight'
-import CardImage from "../images/WIS\ students29.jpg"
+import CardImage from "../../images/WIS students29.jpg"
 
 const WhoWeAre = () => (
 

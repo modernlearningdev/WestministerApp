@@ -1,7 +1,7 @@
 import { ChevronRight, Facebook, Instagram, Phone, Twitter } from '@material-ui/icons';
 import React from 'react';
 import "./Footer.scss";
-import Logo from "../images/logo.png";
+import Logo from "../../images/logo.png";
 
 const Footer = () => (
     <div className="footer">

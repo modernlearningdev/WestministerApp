@@ -1,5 +1,6 @@
 import { ChevronRight } from '@material-ui/icons';
 import React from 'react';
+import {Link} from "react-router-dom"
 import "./Visit.scss";
 
 
@@ -8,7 +9,7 @@ const Visit = () => (
         <div className="visit__container">
             <div className="space"></div>
             <h5>Schedule a Visti at Westminister International School</h5>
-            <a href="#" className="visit__btn">Schedule a Visit <span><ChevronRight /></span></a>
+            <Link href="#" className="visit__btn">Schedule a Visit <span><ChevronRight /></span></Link>
             <div className="space"></div>
         </div>
     </div>

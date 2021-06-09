@@ -1,6 +1,6 @@
 import React from 'react';
 import "./About.scss";
-import CardImage from "../images/31.jpg"
+import CardImage from "../../images/31.jpg"
 
 
 const About = () => (
@@ -17,7 +17,7 @@ const About = () => (
             <div className="about__card__container">
                 <div className="card">
                     <div className="card__image">
-                        <img src={CardImage} alt="About image" srcset="" />
+                        <img src={CardImage} alt="" srcset="" />
                     </div>
 
                     <div className="card__details">
@@ -58,14 +58,14 @@ const About = () => (
                     </div>
 
                     <div className="card__image">
-                        <img src={CardImage} alt="About image" srcset="" />
+                        <img src={CardImage} alt="" srcset="" />
                     </div>
                 </div>
 
 
                 <div className="card">
                     <div className="card__image">
-                        <img src={CardImage} alt="About image" srcset="" />
+                        <img src={CardImage} alt="" srcset="" />
                     </div>
 
                     <div className="card__details">

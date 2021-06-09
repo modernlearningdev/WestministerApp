@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Hero.scss";
-import Separator from "../images/sep.png"
+import Separator from "../../images/sep.png";
+import {Link} from "react-router-dom";
 
 
 
@@ -13,7 +14,7 @@ const Hero = () => (
                 classes, high expectations and a commited
                 staff team 
             </h5>
-            <a href="#" className="cta">Learn More</a> 
+            <Link href="#" className="cta">Learn More</Link> 
         </div>
 
         <div className="hero__cta">

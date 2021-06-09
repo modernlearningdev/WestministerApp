@@ -1,11 +1,11 @@
 import './App.css';
-import Header from "./Components/Header";
-import Homepage from "./Components/Homepage"
+import Header from "./Components/Header/Header";
+import Homepage from "./Components/Home/Homepage"
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import About from './Components/About';
-import Admissions from './Components/Admissions';
-import Academics from './Components/Academics';
-import ContactUs from './Components/ContactUs';
+import About from './Components/About/About';
+import Admissions from './Components/Admissions/Admissions';
+import Academics from './Components/Academics/Academics';
+import ContactUs from './Components/ContactUs/ContactUs';
 
 
 

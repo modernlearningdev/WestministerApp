@@ -1,7 +1,7 @@
-import { Button } from '@material-ui/core';
+// import { Button } from '@material-ui/core';
 import React from 'react';
 import "./Admissions.scss";
-import UserForm from "./AdmissionsUserForm";
+import UserForm from "../Admissions/AdmissionsUserForm";
 
 
 const Admissions = () => (
@@ -10,7 +10,7 @@ const Admissions = () => (
 
             <div className="contents">
                 <div className="contents__left">
-                    <img src="./images/31.jpg" alt="" srcset="" />
+                    <img src="../../images/31.jpg" alt="" srcset="" />
                 </div>
 
                 <div className="contents__right">
