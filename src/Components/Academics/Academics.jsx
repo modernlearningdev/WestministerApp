@@ -6,6 +6,8 @@ import Blob3 from "../../images/3.svg"
 import BlogTopImg from "../../images/WIS students35.jpg";
 import BlogTopImg2 from "../../images/WIS students41.jpg";
 import BlogTopImg3 from "../../images/WIS students30.jpg"
+// import Footer from "../Footer/Footer";
+import FooterSm from "../FooterSm/FooterSm";
 
 
 const Academics = () => (
@@ -79,7 +81,7 @@ Sciences – Mathematics, Physics, Chemistry, Biology, Geography and Environment
 
         {/* another blob container */}
 
-        <div className="blob__container">
+        <div className="blob__container last">
             <div className="blog__container__left">
 
                 <img src={Blob1} alt="" className="blob__left__back" />
@@ -100,6 +102,8 @@ Sciences – Mathematics, Physics, Chemistry, Biology, Geography and Environment
 
             </div>
         </div>
+
+        {/* <FooterSm /> */}
     </div>
 
     
