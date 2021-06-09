@@ -1,7 +1,5 @@
 import { Button } from '@material-ui/core';
 import React from 'react';
-// import ReactMapGL, { Marker } from 'react-map-gl';
-// import { react_app_mapbox_token } from "../util/util";
 import "./ContactUs.scss";
 import Logo from "../../images/logo.png";
 
@@ -21,7 +19,7 @@ const ContactUs = () => {
                 <div className="title__wrapper">
                     <div>
                         <h3>Get In Touch</h3>
-                        <p>We would Linek to here from you </p>
+                        <p>We would Like to here from you </p>
                     </div>
 
                     <div className="logo__container">

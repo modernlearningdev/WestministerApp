@@ -7,9 +7,13 @@ import Blog from "../Blog/Blog";
 import Visit from "../Visit/Visit";
 import Footer from '../Footer/Footer';
 
+const styles = {
+    margin: 0,
+    padding: 0
+}
 
 const Homepage = () => (
-    <div className="homepage">
+    <div className="homepage"  style={{...styles}}>
 
         <div className="bg_effect">
             <Hero />

@@ -9,16 +9,13 @@ import { Link } from 'react-router-dom';
 const Header = () => (
     <div className="header">
         <div className="header__logo">
-        
-            <div className="header__logo__img">
-                <img src={Logo} alt="" srcset="" />
-            </div>
 
-
+            <Link className="header__logo__img" to="/"> <img src={Logo} alt="" srcset="" /> </Link>
             <div className="header__logo_school">
                 <h4>Westminister Internationa School</h4>
                 <h6>A Leading and Liberating Education</h6>
-            </div>  
+            </div>
+              
         </div>
 
         <div className="header__menu">
